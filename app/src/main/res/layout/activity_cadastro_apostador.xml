@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro_nome_apostador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroApostador">
+
+    <TextView
+        android:id="@+id/activity_cadastro_apostadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Preencha o formulário para cadastro do Apostador:"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_nome_do_apostador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Nome do Apostador"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Saldo de Aposta"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/activity_cadastro_button_cadastrar_apostador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="Cadastro do Apostador" />
+</RelativeLayout>

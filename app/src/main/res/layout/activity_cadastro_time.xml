@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroTimes">
+
+    <TextView
+        android:id="@+id/activity_cadastro_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Preencha o formulário para o Cadastro:"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_nome_do_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Nome do Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Cidade do Time"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/activity_cadastro_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="País do Time"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/acitivity_salvar_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:text="Cadastrar Time" />
+</RelativeLayout>
