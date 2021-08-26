@@ -29,4 +29,8 @@ public class TimeDAO {
     public void setPais(String pais) {
         this.pais = pais;
     }
+
+    public static String listar() {
+        return null;
+    }
 }

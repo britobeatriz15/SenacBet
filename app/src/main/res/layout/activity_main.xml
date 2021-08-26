@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/acitivity_listar_apostador"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerInParent="true"
@@ -11,10 +12,10 @@
         android:id="@+id/activity_titulo_do_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="cursive"
-        android:text="SenacBet"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="SenacBet"
         android:textSize="36sp"
         android:textStyle="bold" />
 
@@ -22,14 +23,31 @@
         android:id="@+id/activity_cadastrar_nome_dos_times"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Cadastro de Times" />
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="250dp"
+        android:text="Cadastro dos Times" />
 
     <Button
         android:id="@+id/activity_cadastrar_apostador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="350dp"
         android:text="Cadastro do Apostador" />
+
+    <Button
+        android:id="@+id/activity_listar_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:text="Lista de Times" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="550dp"
+        android:text="Lista de Apostadores" />
 </RelativeLayout>

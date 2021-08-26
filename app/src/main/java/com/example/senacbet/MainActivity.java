@@ -5,7 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+
+import com.example.senacbet.DAO.TimeDAO;
+import com.example.senacbet.listas.ListarTimes;
+
+import java.text.ParseException;
 
 public class MainActivity extends AppCompatActivity {
      @Override
@@ -32,7 +39,19 @@ public class MainActivity extends AppCompatActivity {
                  startActivity(intent);
              }
          });
+
+         Button listarTimes = findViewById(R.id.activity_listar_times);
+
+         listarTimes.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(MainActivity.this, ListarTimes.class);
+                 startActivity(intent);
+             }
+         });
              }
 
     }
+
+
 
