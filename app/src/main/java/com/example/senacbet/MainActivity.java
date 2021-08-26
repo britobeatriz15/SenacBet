@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
          Button cadastroApostador = findViewById(R.id.activity_cadastrar_apostador);
-
          cadastroApostador.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
