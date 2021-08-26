@@ -35,19 +35,4 @@
         android:layout_marginTop="350dp"
         android:text="Cadastro do Apostador" />
 
-    <Button
-        android:id="@+id/activity_listar_times"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="450dp"
-        android:text="Lista de Times" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="550dp"
-        android:text="Lista de Apostadores" />
 </RelativeLayout>

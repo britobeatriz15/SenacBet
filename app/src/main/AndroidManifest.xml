@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SenacBet">
-        <activity android:name=".listas.ListarTimes" />
         <activity android:name=".CadastroApostador" />
         <activity android:name=".CadastroTimes" />
         <activity android:name=".MainActivity">
